@@ -1,3 +1,5 @@
+#!/bin/bash
+echo "Running multiple commands..."
 sudo apt update && sudo apt upgrade -y
 sudo apt install screen -y
 Screen -s NillionGA
